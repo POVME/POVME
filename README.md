@@ -44,13 +44,13 @@ conda activate base
 
 The POVME Git repository comes with examples and test cases which are not included in the pip install.
 
-```
+```bash
 git clone https://github.com/POVME/POVME.git
 cd POVME/POVME/examples/
 ```
 
 ## Basic example
-```
+```bash
 cd basic_example
 POVME3.py sample_input.ini 
 ```
@@ -67,7 +67,7 @@ Under the Graphics-->Representations menu in VMD, show the ```0: POVME_volume_tr
 
 
 ## Ligand-defined inclusion region example
-```
+```bash
 cd ligand_example/
 POVME3.py sample_POVME_input.ini
 ```
